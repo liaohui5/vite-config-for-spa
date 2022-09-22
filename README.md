@@ -2,7 +2,7 @@
 
 ## branchs
 
-- main: vue3   项目配置
+- vue3: vue3   项目配置
 - vue2: vue2   项目配置
 - react: react 项目配置
 
