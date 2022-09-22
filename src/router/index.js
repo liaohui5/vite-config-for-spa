@@ -1,7 +1,10 @@
-import { createRouter, createWebHashHistory } from "vue-router";
-
+"use strict";
+import VueRouter from "vue-router";
+import Vue from "vue";
 import Home from "%/Home.vue";
 import About from "%/About.vue";
+
+Vue.use(VueRouter);
 
 const routes = [
   {
@@ -14,8 +17,8 @@ const routes = [
   }
 ];
 
-export default createRouter({
-  history: createWebHashHistory(),
+export default new VueRouter({
+  mode: 'hash',
   routes,
 });
 

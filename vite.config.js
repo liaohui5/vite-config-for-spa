@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 // vue2: https://www.npmjs.com/package/@vitejs/plugin-vue2
 // vue3: https://www.npmjs.com/package/@vitejs/plugin-vue
 // react: https://www.npmjs.com/package/@vitejs/plugin-react
-import vue from "@vitejs/plugin-vue";
+import vue from "@vitejs/plugin-vue2";
 
 const resolve = (dir) => pathResolve(__dirname, dir);
 

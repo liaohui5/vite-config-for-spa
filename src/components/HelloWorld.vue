@@ -4,10 +4,10 @@
   </div>
 </template>
 
-<script setup>
-// import { useStore } from "@/store";
-// const store = useStore();
-// console.log(store);
+<script>
+export default {
+  name: "HelloWorld",
+}
 </script>
 
 <style lang="scss" scoped>

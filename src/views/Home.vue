@@ -1,12 +1,20 @@
 <template>
-  <div>home</div>
-  <div>
-    <HelloWorld />
+  <div class="home-page">
+    <div>home</div>
+    <div>
+      <HelloWorld />
+    </div>
   </div>
 </template>
 
-<script setup>
+<script>
 import HelloWorld from "#/HelloWorld.vue";
+export default {
+  name: "Home",
+  components: {
+    HelloWorld,
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>
